@@ -1,3 +1,4 @@
+//jb3891
 #include <SPI.h>
 #include <Wire.h>
 #include <Adafruit_GFX.h>
@@ -35,7 +36,7 @@ void onBeatDetected() {
       break;
   }
 }
-
+//jb3891
 void setup() {
   Serial.begin(9600);
   //attachInterrupt(digitalPinToInterrupt(4), pswitch, RISING);
@@ -63,7 +64,7 @@ void setup() {
   }
   display.display();
 }
-
+//jb3891
 void loop() {
   pox.update();
   
@@ -86,3 +87,4 @@ void loop() {
     }
   delay(1);
 }
+//jb3891
