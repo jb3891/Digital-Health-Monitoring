@@ -1,3 +1,4 @@
+//jb3891
 void readings() {
   display.clearDisplay();
   display.setTextColor(SSD1306_WHITE);    
@@ -34,6 +35,7 @@ void readings() {
         
   display.display();
 }
+//jb3891
 void halt() {
   display.clearDisplay();
     display.drawRect(7, 0, 4, 16, SSD1306_WHITE);
@@ -67,3 +69,4 @@ void pswitch() {
       break;
   }
 }
+//jb3891
